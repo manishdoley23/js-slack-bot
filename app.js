@@ -68,7 +68,7 @@ app.action({ action_id: 'actionId-0' }, async ({ body, ack, say, payload }) => {
 
 	console.log('body.state.values', body.state.values)
 	await say(
-		`Hey, <@${body.user.id}> these are your opinions:- \n\n${body.state.values['cS6']['plain_text_input-action-1'].value} \n\n${body.state.values['jdAL']['plain_text_input-action-2'].value}`
+		`Hey, <@${body.user.id}> these are your opinions:- \n\n${body.state.values['PJO']['plain_text_input-action-1'].value} \n\n${body.state.values['DiQnU']['plain_text_input-action-2'].value}`
 	)
 })
 
